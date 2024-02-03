@@ -1,0 +1,76 @@
+h1 {
+    display:flex;
+    color:hsl(0, 0%, 100%);
+    margin:right 5rem;
+    justify-content:center;
+    padding:4rem;
+    background-color: hsla(316, 64%, 13%, 0.87)
+    }
+    
+h2 {
+    color:hsla(325, 71%, 56%, 0.87);
+    }
+    
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+a {
+    text-decoration: none;
+    color:hsla(325, 71%, 56%, 0.87);
+    padding: 0.75rem;
+    font-size: 18px;
+    }
+    
+ul {
+    justify-content: space-evenly;
+    display:inline-flex;
+    list-style-type:none;
+    margin:0px;
+    padding:0px; 
+    gap:15px;
+    }
+    
+.navbar li{
+    padding:0.5rem;
+    border: 0.5px solid #ece6e6;
+    border-radius:5.5px;
+    box-shadow: 0 8px 6px -6px rgb(61, 59, 59);
+    }
+    
+    
+.navbar li:hover {
+    background-color: hsla(316, 64%, 13%, 0.87);
+    font-size: 22px;
+    transition:0.5s;
+    margin-top:-5px;
+    margin-bottom:5px;
+    }
+    
+.navbar a:hover{
+    color:white;
+    }
+    
+.csstransitions, .cssvariables{
+    transition: background-color 1.25s;
+    margin-right:50px;
+    padding:0.5rem;
+    }
+    
+.csstransitions:hover, .cssvariables:hover {
+    background-color: hsla(316, 64%, 13%, 0.87);
+    color:hsla(0, 0%, 100%, 0.87);
+    margin-top:1.5rem;
+    }
+    
+footer{
+    padding:2.25rem;
+    margin-top:55px;
+    text-align:center;
+    border-top:1px solid black;
+    }
+    
+.csstransitions:hover h2, .cssvariables:hover h2{
+    color:white;
+    }
